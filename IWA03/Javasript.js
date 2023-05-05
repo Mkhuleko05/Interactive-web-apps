@@ -23,19 +23,19 @@ document.querySelector('#nwabisa').innerText = display
 // johannes.js
 
 private. firstname = "Johannes"
-private. surname = "Potgieter"
-public. role = "Intern"
+private.surname = "Potgieter"
+public.role = "Intern"
 
-private. display= firstname + " " + surname + (" + role + ")
+private.display= firstname + " " + surname + (" + role + ")
 document.querySelector('#johannes').innerText = display
 
 // alex.js
 
 private. firstname = "Alex"
 private. surname = "Naidoo"
-public. role = "Head of Marketing"
+public.role = "Head of Marketing"
 
-private. display= firstname + " " + surname + (" + role + ")
+private.display= firstname + " " + surname + (" + role + ")
 document.querySelector('#alex').innerText = display
 
 // scripts.js
