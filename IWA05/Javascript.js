@@ -4,7 +4,7 @@ NONE_SELECTED = '0'
 
 if (location = RSA) { shipping === 400 && currency === 'R' }
 
-if (location) = NAM
+if (location= NAM)
 shipping = 600 
 else (shipping) = 800
 
@@ -25,7 +25,7 @@ if (shoes + batteries + pens + shirts > 1000 &&  ) {
 	
 
 
-if (shipping) = 0 && (customers) !=== 1 { console.log(WARNING) }
+if (shipping) = 0 && (customers) !=== 1 { console.log (WARNING) }
 
 location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
 
