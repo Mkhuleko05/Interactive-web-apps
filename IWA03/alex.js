@@ -9,7 +9,7 @@ const year = 2022
 import year form 'configuration'*/
 
 const message = '© ' + company + (' + year + ')
-document.querySelector('footer').innerText = message
+document.querySelector('footer').innerText = 'message'
 
 // alex.js
 
