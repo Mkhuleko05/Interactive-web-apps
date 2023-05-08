@@ -14,7 +14,7 @@ if (date = 2050)
 
 	if (status = "student") {
 	  console.log('June', 'Youth Day')
-		let count = count + 1
+		let.count = count + 1
   }
 
 	console.log('August', 'Women’s Day')
