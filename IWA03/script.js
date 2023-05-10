@@ -11,3 +11,8 @@ import year form 'configuration'*/
 
 const message = '© ' + company + ' (' + year + ')'
 document.querySelector('footer').innerText = message
+
+// scripts.js
+
+console.log('Roles:', nwabisa.role, johanes.role, alex.role)
+ 
