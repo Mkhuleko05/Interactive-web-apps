@@ -6,13 +6,11 @@ const transport = 10.2;
 const hourOfDay = '00';
 const minuteOfDay = '00';
 
-// Only change below this line
+// Only change be low this line
 
-if (hourOfDay) && (minuteOfDay !== null) && (hourOfDay == '00') && (minuteOfDay == '00'); {
-	const taxAsDecimal = tax / '100'
-  const startingAfterTax = salary * '1' - taxAsDecimal
-	const balace = starting - transport - food - rent
+if (hourOfDay === 0 && minuteOfDay === 0); {
+const taxAsDecimal = perseInt(tax) / 100;
+const startingAfterTax = salary * (1 - taxAsDecimal);
+const balace = starting - transport - food - rent;
+console.log('R274.05 (balance.toFixed(2))')
 }
-	
-console.log(balance.toFixed(3))
- 
