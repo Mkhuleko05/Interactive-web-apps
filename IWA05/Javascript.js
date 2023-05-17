@@ -7,13 +7,13 @@ let shipping = null
 let currency = '$'
 let customers = 1
 
-if (location === RSA) {
+if (location === 'RSA') {
     shipping = 400 ;
     currency ='R' 
 }
 
-if (location === NAM) {
-shipping = 600 }
+if (location === 'NAM') {
+	shipping = 600 }
 else {shipping = 800}
 
 const shoes = 300 * 1

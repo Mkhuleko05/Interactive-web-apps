@@ -9,10 +9,8 @@ if (date == 2050) {
 	let date = "April"
 	console.log(date, 'Family Day')
 	console.log(date, 'Freedom Day')
-	
-	//let date = count + 4
 
-	function value (student) {
+	if (status == "student") {
 	console.log("June", 'Youth Day')
 	//let count = count + 1
     }
