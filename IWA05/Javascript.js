@@ -2,11 +2,14 @@ FREE_WARNING = 'Free shipping only applies to single customer orders'
 BANNED_WARNIN = 'Unfortunately we do not ship to your country of residence'
 NONE_SELECTED = '0'
 
-if (location = RSA) { shipping === 400 && currency === 'R' }
+if (location = "RSA"); { 
+	shipping === 400;
+	currency === 'R'
+}
 
-if (location = 'NAM')
-	shipping = 600 
-else shipping = 800
+if (location = "NA")
+	shipping = 600; 
+else shipping = 800;
 
 shoes = 300 * 1
 toys - 100 * 5
@@ -17,9 +20,9 @@ pens = 5 * 'NONE_SELECTED'
 shipping = null
 currency = $
 
-if (shoes + batteries + pens + shirts > 1000 &&  ) {
+if (shoes + batteries + pens + shirts > 1000 ) {
 	if (location = NAM && customers < 2) {
-			if (location = 'RSA')
+			if (location = "RSA")
 		    shipping = 0 || calcShipping
 		}
 	}
