@@ -9,8 +9,8 @@ const minuteOfDay = '00';
 // Only change be low this line
 
 if (hourOfDay === 0 && minuteOfDay === 0); {
-const taxAsDecimal = perseInt(tax) / 100;
+const taxAsDecimal = (tax/ 100);
 const startingAfterTax = salary * (1 - taxAsDecimal);
-const balace = starting - transport - food - rent;
+const balace = (starting - transport - food - rent);
 console.log('R274.05 (balance.toFixed(2))')
 }
