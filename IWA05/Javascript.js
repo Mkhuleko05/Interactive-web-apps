@@ -2,7 +2,7 @@ const FREE_WARNING = 'Free shipping only applies to single customer orders'
 const BANNED_WARNIN = 'Unfortunately we do not ship to your country of residence'
 const NONE_SELECTED = '0'
 
-var location = 'RSA'
+let location = 'RSA'
 let shipping = 'null'
 let currency = '$'
 let customers = 1
