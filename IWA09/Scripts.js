@@ -30,9 +30,9 @@ const rent = {
 
 // You can change below however you want
 
-const taxAsDecimal = parseInt(tax[913]) / 100;
+const taxAsDecimal = parseInt(tax[913])/100;
 const startingAfterTax = salary * (1 - taxAsDecimal);
 const type = rent.largeApartment
-const balance = startingAfterTax - expenses.transport - expenses.food - rent["large-apartment"];
+const balance = startingAfterTax - expenses.transport - expenses.food - rent.largeApartment;
 const currency='R' 
 console.log(currency, balance.toFixed(2));
