@@ -39,7 +39,6 @@ const sarah = {
 	}
 }
 
-
-console.log('\n',sarah.fullName,'\n',sarah.age,'\n',sarah.address.houseNumber,'\n',sarah.address.streetName,'\n',sarah.address.postalCode,'\n',`R : ${sarah.balance.toFixed(2)}`)
+console.log('\n',  sarah.fullName,'\n',sarah.age,'\n',sarah.address.houseNumber,'\n',sarah.address.streetName,'\n',sarah.address.postalCode,'\n',`R : ${sarah.balance.toFixed(2)}`)
 
 console.log('\n',leo.firstName,'\n',leo.age,'\n',leo.address.houseNumber,'\n',leo.address.streetName,'\n',leo.address.postalCode1,'\n',`R : ${leo.balance}`)
