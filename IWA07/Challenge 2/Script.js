@@ -1,7 +1,7 @@
 const nickname= "Timmy";
 const firstname = "Timothy";
 
-if (nickname) {
+if (firstname) {
     console.log(`Good Morning, ${nickname}!`)
   } else if (firstname) {
     console.log(`Good Morning, ${firstname}!`)
