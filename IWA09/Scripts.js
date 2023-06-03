@@ -23,7 +23,7 @@ const rent = {
     'small-room': 200,
     'large-room': 300,
     'small-apartment': 400,
-    largeApartment: 800,
+    'largeApartment': 800,
     'small-house': 1200,
     'large-house': 2400,
 }
@@ -36,3 +36,4 @@ const type = rent.largeApartment
 const balance = startingAfterTax - expenses.transport - expenses.food - rent.largeApartment;
 const currency='R' 
 console.log(currency, balance.toFixed(2));
+expenses.transport
