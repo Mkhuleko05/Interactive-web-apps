@@ -29,7 +29,7 @@ donuts2.textContent = order2.dataset.donuts;
 pancakes2.textContent = order2.dataset.pancakes;
 status2.textContent = order2.dataset.delivered === 'true' ? 'delivered' : 'Pending';
 
-biscuits3.textContent = order3.dataset.biscuits,
-donuts3.textContent = order3.dataset.donuts3,
+biscuits3.textContent = order3.dataset.biscuits;
+donuts3.textContent = order3.dataset.donuts3;
 pancakes3.textContent = order3.dataset.pancakes3;
 status3.textContent = order3.dataset.delivered === 'false ' ? 'Delivered' : 'Pending';
