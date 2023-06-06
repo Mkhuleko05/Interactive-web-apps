@@ -32,4 +32,4 @@ status2.textContent = order2.dataset.delivered === 'true' ? 'delivered' : 'Pendi
 biscuits3.textContent = order3.dataset.biscuits;
 donuts3.textContent = order3.dataset.donuts3;
 pancakes3.textContent = order3.dataset.pancakes3;
-status3.textContent = order3.dataset.delivered === 'false ' ? 'Delivered' : 'Pending';
+status3.textContent = order3.dataset.delivered === 'true ' ? 'Delivered' : 'Pending';
