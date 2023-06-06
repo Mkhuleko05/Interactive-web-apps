@@ -17,7 +17,7 @@ const status2 = order2.querySelector('.status dd')
 const biscuits3 = order3.querySelector('.biscuits.count');
 const donuts3 = order3.querySelector('.donuts.count');
 const pancakes3 = order3.querySelector('.pancakes.count');
-const status = order3.querySelector('status dd')
+const status = order3.querySelector('.status dd')
 
 biscuits1.textContent = order1.dataset.biscuits;
 donuts1.textContent = order1.dataset.donuts;
