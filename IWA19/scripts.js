@@ -1,4 +1,5 @@
-import {BOOKS_PER_PAGE, authors, genres, books}  from "./data.js";
+import 
+{BOOKS_PER_PAGE, authors, genres, books}  from "./data.js";
 
 const matches = books;
 let page = 1;
